@@ -1,9 +1,4 @@
-for (let i = 0; i <= 20; i++) {
-  if (i % 2) {
-  } else {
-    console.log(i);
-  }
-}
+for (let num = 0; num <= 20; num += 2) console.log(num);
 
 var blacklist = [
   "baiaz",
